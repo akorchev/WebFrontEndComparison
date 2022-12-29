@@ -10,7 +10,7 @@
 
 <C1Button Click="OnGroupSummary">Group by Summary</C1Button>
 
-<FlexGrid @ref="grid" ItemsSource="@forecasts" AutoGenerateColumns="false" DefaultColumnWidth="GridLength.Star" Style="@("height:80vh")">
+<FlexGrid @ref="grid" IsVirtualizationEnabled=@true ItemsSource="@forecasts" AutoGenerateColumns="false" DefaultColumnWidth="GridLength.Star" Style="@("height:80vh")">
     <FlexGridColumns>
         <GridColumn Binding=@nameof(WeatherForecast.Date)/>
         <GridColumn Binding=@nameof(WeatherForecast.TemperatureC) />

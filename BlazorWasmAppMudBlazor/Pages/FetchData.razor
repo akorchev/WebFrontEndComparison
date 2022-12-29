@@ -4,7 +4,7 @@
 <PageTitle>Weather forecast</PageTitle>
 
 
-<MudDataGrid T=WeatherForecast Items=@forecasts Groupable=@true>
+<MudDataGrid T=WeatherForecast Items=@forecasts Groupable=@true Virtualize=@true>
 	<Columns>
         <Column T="WeatherForecast" Field=@nameof(WeatherForecast.LastRendered) />
 		<Column T="WeatherForecast" Field=@nameof(WeatherForecast.Date) />

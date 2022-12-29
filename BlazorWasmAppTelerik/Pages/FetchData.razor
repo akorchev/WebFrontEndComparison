@@ -7,7 +7,7 @@
 
 <h1>Weather forecast</h1>
 
-<TelerikGrid Data=@forecasts Groupable="true">
+<TelerikGrid Data=@forecasts Groupable="true" PageSize=@WeatherForecast.Data.Length>
     <GridColumns>
         <GridColumn Field=@nameof(WeatherForecast.LastRendered) Groupable="false" />
         <GridColumn Field=@nameof(WeatherForecast.Date) Groupable="false" />

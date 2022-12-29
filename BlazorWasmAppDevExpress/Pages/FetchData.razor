@@ -5,7 +5,7 @@
 
 <PageTitle>Weather forecast</PageTitle>
 
-<DxDataGrid Data=@forecasts ShowGroupPanel=@true PageSize=500>
+<DxDataGrid Data=@forecasts ShowGroupPanel=@true PageSize=@WeatherForecast.Data.Length>
 	<Columns>
 		<DxDataGridColumn Field=@nameof(WeatherForecast.LastRendered)></DxDataGridColumn>
 		<DxDataGridColumn Field=@nameof(WeatherForecast.Date)></DxDataGridColumn>

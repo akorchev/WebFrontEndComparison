@@ -4,7 +4,7 @@
 
 <PageTitle>Weather forecast</PageTitle>
 
-<SfGrid DataSource="@forecasts" AllowGrouping="true" Height="400">
+<SfGrid DataSource="@forecasts" AllowGrouping="true" Height="800" EnableVirtualization=@true>
 	<GridColumns>
 		<GridColumn Field=@nameof(WeatherForecast.LastRendered) AllowGrouping=@false></GridColumn>
 		<GridColumn Field=@nameof(WeatherForecast.Date) AllowGrouping=@false></GridColumn>

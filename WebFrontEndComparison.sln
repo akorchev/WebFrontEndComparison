@@ -7,11 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpSharedData", "CSharpS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAppTelerik", "BlazorWasmAppTelerik\BlazorWasmAppTelerik.csproj", "{ED5C4A65-229C-4ECD-9A3C-9580F4A86799}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerAppTelerik", "BlazorServerAppTelerik\BlazorServerAppTelerik.csproj", "{6E835C91-F7E7-4589-AB07-9BA3A6626206}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAppSyncFusion", "BlazorWasmAppSyncFusion\BlazorWasmAppSyncFusion.csproj", "{CD7B312C-8774-4C19-AB5F-74C8B6495B8F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerAppSyncfusion", "BlazorServerAppSyncfusion\BlazorServerAppSyncfusion.csproj", "{171FD3F5-76CB-4C8B-ABE6-FB0C1CB3D460}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAppDevExpress", "BlazorWasmAppDevExpress\BlazorWasmAppDevExpress.csproj", "{33E23070-7420-4BBB-992C-7F1EE254D599}"
 EndProject
@@ -24,9 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAppComponentOne", "BlazorWasmAppComponentOne\BlazorWasmAppComponentOne.csproj", "{BD8ECF09-C070-465E-B2CA-619C766ACD23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAppComponentOne", "BlazorWasmAppComponentOne\BlazorWasmAppComponentOne.csproj", "{BD8ECF09-C070-465E-B2CA-619C766ACD23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAppDnetBlazor", "BlazorWasmAppDnetBlazor\BlazorWasmAppDnetBlazor.csproj", "{3E577CFF-F4A7-40AB-9815-FE4F2BB8037D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAppDnetBlazor", "BlazorWasmAppDnetBlazor\BlazorWasmAppDnetBlazor.csproj", "{3E577CFF-F4A7-40AB-9815-FE4F2BB8037D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,18 +38,10 @@ Global
 		{ED5C4A65-229C-4ECD-9A3C-9580F4A86799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5C4A65-229C-4ECD-9A3C-9580F4A86799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5C4A65-229C-4ECD-9A3C-9580F4A86799}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E835C91-F7E7-4589-AB07-9BA3A6626206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E835C91-F7E7-4589-AB07-9BA3A6626206}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E835C91-F7E7-4589-AB07-9BA3A6626206}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E835C91-F7E7-4589-AB07-9BA3A6626206}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD7B312C-8774-4C19-AB5F-74C8B6495B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD7B312C-8774-4C19-AB5F-74C8B6495B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD7B312C-8774-4C19-AB5F-74C8B6495B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD7B312C-8774-4C19-AB5F-74C8B6495B8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{171FD3F5-76CB-4C8B-ABE6-FB0C1CB3D460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{171FD3F5-76CB-4C8B-ABE6-FB0C1CB3D460}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{171FD3F5-76CB-4C8B-ABE6-FB0C1CB3D460}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{171FD3F5-76CB-4C8B-ABE6-FB0C1CB3D460}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33E23070-7420-4BBB-992C-7F1EE254D599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33E23070-7420-4BBB-992C-7F1EE254D599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E23070-7420-4BBB-992C-7F1EE254D599}.Release|Any CPU.ActiveCfg = Release|Any CPU

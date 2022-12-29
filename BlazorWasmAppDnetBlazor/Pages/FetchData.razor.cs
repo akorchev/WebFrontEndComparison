@@ -40,7 +40,7 @@ public partial class FetchData
         {
             HeaderHeight = 60,
             RowHeight = 40,
-            PaginationPageSize = 1000,
+            PaginationPageSize = WeatherForecast.Data.Length,
             GridClass = "cvs-bl-grid",
             EnableGrouping = true, // Enable Grouping
             GroupDefaultExpanded = true,

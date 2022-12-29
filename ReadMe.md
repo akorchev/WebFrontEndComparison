@@ -17,6 +17,6 @@ Blazor component suite I can find.
 |Blazor-DevExpress|No|11 seconds|2.5 seconds|12 seconds|[YouTube](https://youtu.be/tXgz-pLyC-c)|[DevExpress.com](https://www.devexpress.com/blazor/)|
 |Blazor-Dalnet|Yes|0.5 seconds|instant|instant|[YouTube](https://youtu.be/LwThq6_zJmM)|[DalNet](https://datalnet.com)|
 |Blazor-MudBlazor|Yes|3.5 seconds|instant|2.5 seconds|[YouTube](https://youtu.be/U7RV1Edyzh8)|[MudBlazor.com](https://mudblazor.com/)|
-|Blazor-Radzen|Yes|7.5 seconds|6 seconds|3 secondss|[YouTube](https://youtu.be/ebVdUVubjts)|[Radzen.com](https://blazor.radzen.com/)|
+|Blazor-Radzen|Yes|7.5 seconds|6 seconds|3 seconds|[YouTube](https://youtu.be/ebVdUVubjts)|[Radzen.com](https://blazor.radzen.com/)|
 |Blazor-Syncfusion|Yes|2 seconds|1.5 seconds|instants|[YouTube](https://youtu.be/jDbKjoB4KYE)|[Syncfusion.com](https://www.syncfusion.com/)|
 |Blazor-Telerik|No|6 seconds|10 seconds|6 seconds|[YsouTube](https://youtu.be/2wBSGboTkDw)|[Telerik.com](https://www.telerik.com/)|

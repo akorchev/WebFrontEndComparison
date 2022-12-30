@@ -5,7 +5,7 @@
 <PageTitle>Weather forecast</PageTitle>
 
 <RadzenDataGrid AllowGrouping="true" AllowVirtualization=@true
-    Style="height: 500px"
+    Style="height: 800px; width: 100%"
     Count="@WeatherForecast.Data.Length"
     Data="@forecasts" TItem="WeatherForecast" ColumnWidth="160px" HideGroupedColumn="true" GroupRowRender=@OnGroupRowRender GroupRowCollapse="OnGroupRowCollapse" GroupRowExpand="OnGroupRowExpand">
     <Columns>
